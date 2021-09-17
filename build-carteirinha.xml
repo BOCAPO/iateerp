@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- =============================================================== -->
+<!-- Arquivo de construção para o Ant (ant.apache.org)               -->
+<!-- =============================================================== -->
+
+<project default="executarAplicacao">
+
+	<property file="build-carteirinha.properties"/>
+
+<!-- =============================================================== -->
+<!-- Classpath para compilação e execução                            -->
+<!-- =============================================================== -->
+	<path id="classpath.execucao">
+		<pathelement location="${base.dir}"/>
+	</path>
+
+<!-- ============================================================= -->
+<!-- Compilar o código-fonte                                        -->
+<!-- ============================================================= -->
+	<target name="compilarClasses">
+		<mkdir dir="${build.dir}"/>
+		<javac includeAntRuntime="false" includes="techsoft/carteirinha/*.java" 
+                       destdir="${build.dir}" srcdir="${src.dir}"
+                       source="1.5" target="1.5"
+		       debug="${debug.ativo}" debuglevel="${debug.level}">
+                    <classpath>
+                        <pathelement location="${src.dir}/techsoft/carteirinha/jna-4.1.0.jar"/>
+                        <pathelement location="${src.dir}/techsoft/carteirinha/FargoJavaAPI.jar"/>
+                    </classpath>
+		</javac>
+	</target>
+
+<!-- ============================================================= -->
+<!-- Executar a aplicação                                           -->
+<!-- ============================================================= -->
+	<target name="executarAplicacao" depends="compilarClasses">
+		<java classname="${aplicacao.main}" fork="true">
+			<classpath refid="classpath.execucao"/>
+		</java>
+	</target>
+
+<!-- ============================================================= -->
+<!-- Gerar o .jar para distribuição                                 -->
+<!-- ============================================================= -->
+	<target name="dist" depends="limpar,compilarClasses">
+		<!-- ===================================== -->
+		<!-- Preparar a estrutura de diretórios     -->
+		<!-- para fazer o JAR somente dos binários -->
+		<!-- ===================================== -->
+		<mkdir dir="${dist.dir}"/>
+
+		<copy file="${src.dir}/techsoft/carteirinha/wrapper.exe" todir="${dist.dir}"/>
+		<copy file="${src.dir}/techsoft/carteirinha/wrapper.dll" todir="${dist.dir}"/>
+		<copy file="${src.dir}/techsoft/carteirinha/wrapper.jar" todir="${dist.dir}"/>
+		<copy file="${src.dir}/techsoft/carteirinha/wrapper.conf" todir="${dist.dir}"/>
+		<copy file="${src.dir}/techsoft/carteirinha/InstallService-NT.bat" todir="${dist.dir}"/>
+		<copy file="${src.dir}/techsoft/carteirinha/UninstallService-NT.bat" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/jna-4.1.0.jar" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/FargoJavaAPI.jar" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/FargoNativeAPI.dll" todir="${dist.dir}"/>
+                
+                <!--
+                <copy file="${src.dir}/techsoft/carteirinha/ImpCart.exe" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/Config.txt" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/logo nova.jpg" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/logofundo.bmp" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/cr_conc_1.bmp" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/cr_conc_2.bmp" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/cr_func_1.bmp" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/cr_func_2.bmp" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/ImpCracha.exe" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/ImpMini.exe" todir="${dist.dir}"/>
+                <copy file="${src.dir}/techsoft/carteirinha/vbrun60sp6.exe" todir="${dist.dir}"/>
+                -->
+
+		<!-- =========== -->
+		<!-- Gerar o .jar -->
+		<!-- =========== -->
+		<jar destfile="${dist.dir}/server.jar" basedir="${build.dir}">
+			
+			<manifest>
+				<attribute name="Created-By" value="Hugo Weber"/>
+				<attribute name="Implementation-Vendor" value="TechSoft"/>
+				<attribute name="Implementation-Title" value="TechSoft Carteirinha"/>
+				<attribute name="Implementation-Version" value="5.0"/>
+			</manifest>
+		</jar>
+
+	</target>
+
+<!-- ============================================================= -->
+<!-- Limpar os arquivos gerados (diretório build)                   -->
+<!-- ============================================================= -->
+	<target name="limpar">
+		<delete dir="${build.dir}"/>
+		<delete dir="${dist.dir}"/>
+	</target>
+
+
+</project>

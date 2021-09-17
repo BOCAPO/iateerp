@@ -1,0 +1,47 @@
+<%pageContext.setAttribute("autorizado", request.isUserInRole("1505"));%>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var autorizado='<%=request.isUserInRole("1505")%>'
+
+        if(autorizado=="true"){
+            atualizaBoletos();
+            setInterval(atualizaBoletos, 10000);
+        }
+    });
+    
+    function atualizaBoletos(){
+        $.ajax({url:'CarneItauAjax', async:false, dataType:'text', type:'GET',data:{tipo:1}}).success(function(retorno){
+            $("#boletosPendentes").html(retorno+" boletos");
+        });
+    }
+</script>
+
+<style type="text/css">
+        .user2 { height:65px; background:url("imagens/bg-aviso-boleto.png") top center no-repeat; position:absolute; right:200px; top:02px; }
+        .logado2 { font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#009; padding-top:8px; width:167px; text-align:center; padding-left:0px; }
+    </style>  
+
+    <div id="topo">
+        <div id="logointernas">
+            <img src="imagens/logo-internas.png" />
+        </div>
+
+        <c:if test='${autorizado==true}'>
+            <div class="user2 logado2">
+                Boletos pendentes de <br />
+                envio para o  Itaú<br />
+                <a href="c?app=1505">
+                    <div id="boletosPendentes" style="color: red; font-size:14px; "> boletos</div>
+                </a>
+                
+            </div>
+        </c:if>
+
+        <div class="user logado">
+            <%=request.getUserPrincipal().getName()%> <br />
+            <a href="c?app=9020&acao=showForm">Alterar Senha</a> | <a href="logout.jsp">Sair</a> <br> <a href="logout.jsp?destino=c?app=1000">Nova Autenticação</a>
+        </div>
+
+    </div>
+    

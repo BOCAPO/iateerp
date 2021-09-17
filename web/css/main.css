@@ -1,0 +1,232 @@
+/********************************************************************
+######################         	RESETS         ######################
+*********************************************************************/
+.clear { clear:both; }
+.divisoria { border-bottom:1px #d3dced solid; padding-top:5px; margin-bottom:5px; }
+.span { margin:0px; padding:0px; }
+.field-set { border:1px solid #CCCDE3; }
+.field-set2 { border:1px solid #CCCDE3; margin-bottom:10px; }
+.field-set3 { border:1px solid #CCCDE3; margin:10px 0px; }
+
+
+/********************************************************************
+#######################         INTRO       #########################
+*********************************************************************/
+#blocointro { width:572px; height:448px; position:absolute; margin-left:-286px; left:50%; margin-top:-224px; top:50%; }
+#logointro { width:268px; height:202px; margin:auto; margin-bottom:30px; }
+.intro { background:url("../imagens/bg-intro.jpg") }
+#entrar { width:572px; height:215px; background:url("../imagens/bg-entrar.png") top center no-repeat; }
+#titulointro { text-align:center; padding-top:15px; margin-bottom:10px; }
+.iconesintro { float:left; margin-left:20px; margin-bottom:15px; display:inline; border: none;}
+.iconesintro a:hover { opacity:0.65; -moz-opacity: 0.65; filter: alpha(opacity=65); border: none;}
+.botaointro { float:left; margin-left:20px; display:inline; border: none;}
+.botaointro a:hover { opacity:0.65; -moz-opacity: 0.65; filter: alpha(opacity=65); border: none;}
+
+/********************************************************************
+#################         PADRÃO INTERNAS       #####################
+*********************************************************************/
+#topo { width:100%; height:80px; background:url("../imagens/bg-topo.png") bottom center repeat-x; }
+#menu { width:100%; height:30px; background:url("../imagens/bg-menu.jpg") bottom center repeat-x; }
+#rodape { width:100%; height:25px; background:url("../imagens/bg-rodape.jpg") top repeat-x; position:fixed; bottom:0px; z-index: 1000;}
+#copyright { padding-top:6px; padding-left:10px; }
+#blocoheader { left: 0px; position: fixed; top: 0px; width: 100%; z-index: 1000;}
+
+/********************************************************************
+#####################         INTERNAS       ########################
+*********************************************************************/
+.internas { background:url("../imagens/bg-intro.jpg"); margin-top:110px; margin-bottom:30px; }
+#logointernas { padding-top:5px; padding-left:10px; }
+.user { height:65px; background:url("../imagens/bg-user-.png") top center no-repeat; position:absolute; right:0px; top:02px; }
+.logado { font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#009; padding-top:5px; width:167px; text-align:center; padding-left:28px; }
+
+/********************************************************************
+#######################         LOGAR       #########################
+*********************************************************************/
+
+.logar { background:url("../imagens/bg-intro.jpg") }
+#caixalogin { width:350px; height:200px; background:url("../imagens/bg-logar.png"); position:absolute; left:50%; margin-left:-175px; top:50%; margin-top:-100px; }
+#caixaerrologin { width:350px; height:165px; background:url("../imagens/bg-erro-logar.PNG"); position:absolute; left:50%; margin-left:-175px; top:50%; margin-top:-100px; }
+#caixaerrologin { width:350px; height:165px; background:url("../imagens/bg-erro-logar.PNG"); position:absolute; left:50%; margin-left:-175px; top:50%; margin-top:-100px; }
+#caixaConfirmacao { width:350px; height:165px; background:url("../imagens/bg-confirmacao.PNG"); position:absolute; left:50%; margin-left:-175px; top:50%; margin-top:-100px; }
+#msgerrologin { width:350px; height:100px; position:absolute; left:50%; margin-left:-125px; top:50%; margin-top:-86px; }
+#msgerroapp { width:350px; height:100px; position:absolute; left:50%; margin-left:-158px; top:50%; margin-top:-86px; }
+
+/********************************************************************
+###############         INCLUSÃO DE TITULAR       ###################
+*********************************************************************/
+#navegacao { width:100%; height:35px; background:url("../imagens/bg-nav.jpg") bottom center repeat-x; position:relative;  }
+#textonav { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#666; padding-top:8px; padding-left:15px; }
+#titulonav { width:164px; height:30px; position: absolute; right:15px; bottom:4px; z-index:9; }
+#blocoicones { width:100%; min-height:35px; background-color:#d3dced; position: fixed; top: 110px; left: 0px; z-index: 999;}
+#blocoicones ul { width:765px; }
+#blocoicones ul li { float:left; list-style:none; padding-top:7px; margin-left:15px; }
+.icone01-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-01.png") 0px 7px no-repeat; }
+.icone02-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-02.png") 0px 7px no-repeat; }
+.icone03-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-03.png") 0px 7px no-repeat; }
+.icone04-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-04.png") 0px 7px no-repeat; }
+.icone05-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-05.png") 0px 7px no-repeat; }
+.icone06-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-06.png") 0px 7px no-repeat; }
+.icone07-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-07.png") 0px 7px no-repeat; }
+.icone08-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-08.png") 0px 7px no-repeat; }
+.icone09-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-09.png") 0px 7px no-repeat; }
+.icone10-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-10.png") 0px 7px no-repeat; }
+.icone11-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-11.png") 0px 7px no-repeat; }
+.icone12-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-12.png") 0px 7px no-repeat; }
+.icone13-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-13.png") 0px 7px no-repeat; }
+.icone14-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-14.png") 0px 7px no-repeat; }
+.icone15-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-15.png") 0px 7px no-repeat; }
+.icone16-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-16.png") 0px 7px no-repeat; }
+.icone17-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-17.png") 0px 7px no-repeat; }
+.icone18-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-18.png") 0px 7px no-repeat; }
+.icone19-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-19.png") 0px 7px no-repeat; }
+.icone20-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-20.png") 0px 7px no-repeat; }
+.icone21-ativo { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-21.png") 0px 7px no-repeat; }
+#blocopesquisa { width:100%; height:40px; background:url("../imagens/bg-barra-pesquisa.png") bottom  repeat-x; 
+                 position: fixed; top: 145px; left: 0px; z-index: 999;}
+#blocopesquisa2 { width:100%; height:40px; background:url("../imagens/bg-barra-pesquisa.png") bottom  repeat-x; 
+                 position: fixed; top: 110px; left: 0px; z-index: 999;}
+
+#botaoSalvar ul li {padding-top:0px;}
+.icone { width:auto; height:20px; background:url("../imagens/icones/inclusao-titular-17.png") 0px 0px no-repeat; }
+
+
+#incluir-titular { width:700px; margin-bottom:40px; padding-bottom:5px; }
+#foto3x4 { float:left; width:120px; height:160px; display:block; } 
+#it-bloco01 { padding-top:10px; padding-left:10px; }
+#sub-nav-inclusao ul li { float:left; list-style:none; padding:10px; background-color:#0d0e77; margin:3px; margin-top:5px; margin-left:10px; }
+#sub-nav-inclusao ul li a { font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#fff; }
+#sub-nav-inclusao ul li a:hover { color:#c9d3e9; }
+#titulo-subnav { font-family: Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#009; margin-left:15px;  }
+.titulo-subnav { font-family: Arial, Helvetica, sans-serif; font-size:15px; font-weight:bold; color:#009; margin-left:15px;  }
+
+/********************************************************************
+############         formulario - GRUPOS geral      ################
+*********************************************************************/
+
+#grupo01 { float:left; margin:0px 10px; margin-bottom:5px; display:inline; }
+#grupo02 { float:left; margin-bottom:8px; margin-right:15px; display:inline; }
+#grupo03 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo04 { float:left; margin-bottom:8px; margin-right:7px; margin-top:20px; display:inline; }
+#grupo05 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo06 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo07 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo08 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo09 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo10 { float:left; margin-bottom:8px; margin-right:7px; display:inline; margin-left:10px; margin-right:18px;}
+#grupo11 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo12 { float:left; margin-bottom:8px; margin-right:7px; display:inline; margin-left:10px; display:inline; }
+#grupo13 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo14 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo15 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo16 { float:left; margin-bottom:8px; margin-right:7px; display:inline; margin-left:10px; }
+#grupo17 { float:left; margin-bottom:8px; margin-right:7px; display:inline; margin-left:10px; }
+#grupo18 { float:left; margin-bottom:8px; margin-right:7px; display:inline; margin-left:10px; }
+#grupo19 { float:left; margin-bottom:8px; margin-right:7px; display:inline; margin-left:10px; }
+#grupo20 { float:left; margin-bottom:8px; margin-right:7px; display:inline; }
+#grupo21 { float:left; margin-bottom:8px; margin-right:7px; display:inline; margin-left:10px; }
+#grupo22 { float:left; margin-bottom:8px; margin-right:7px; display:inline; margin-left:10px; }
+#grupo23 { float:left; margin-bottom:8px; margin-right:7px; display:inline; margin-left:10px; }
+#grupo24 { float:left; margin-bottom:8px; margin-right:7px; display:inline; margin-left:10px; }
+#grupo30 { float:left; margin-bottom:8px; margin-right:0px; display:inline; }
+#grupo31 { float:left; margin-bottom:8px; margin-right:0px; display:inline; }
+#grupo33 { float:left; margin-bottom:8px; margin-right:0px; display:inline; }
+#grupo34 { float:left; margin-bottom:8px; margin-right:0px; margin-left:10px; display:inline; }
+#grupo35 { float:left; margin-bottom:8px; display:inline; }
+#grupo36 { float:left; margin-bottom:8px; margin-right:5px; display:inline; margin-left:10px; margin-right:18px;}
+#grupo37 { float:left; margin-bottom:8px; display:inline; }
+#grupo38 { float:left; margin-bottom:8px; margin-right:8px; display:inline; margin-left:10px; display:inline; }
+#grupo39 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo40 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo41 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo42 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo43 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo44 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo45 { width:92px; height:150px; float:left; padding-top:13px; padding-left:5px; }
+#grupo46 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo47 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo48 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo49 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo51 { margin:0px 10px; margin-bottom:5px; display:inline; }
+#grupo52 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo53 { float:left; margin:0px 10px; margin-right:5px; margin-bottom:5px; display:inline; padding-top:18px; }
+#grupo54 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; padding-top:21px; }
+#grupo54 a { background-color:#0d0e77; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#fff; padding:8px; }
+#grupo54 a:hover { color:#c9d3e9; }
+#grupo55 { margin:0px 10px; margin-bottom:5px; display:inline; }
+#grupo56 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+#grupo57 { float:left; margin:0px 10px; margin-right:0px; margin-bottom:5px; display:inline; }
+
+#grupo01 input { height:22px; margin-bottom:5px; }
+#grupo02 input { height:22px; margin-bottom:5px; }
+#grupo03 input { width:300px; height:22px; margin-bottom:5px; }
+#grupo05 input { height:22px; margin-bottom:5px; }
+#grupo06 input { width:328px; height:22px; margin-bottom:5px; }
+#grupo07 input { width:156px; height:22px; margin-bottom:5px; }
+#grupo08 input { width:330px; height:22px; margin-bottom:5px; }
+#grupo10 input { width:450px; height:22px; margin-bottom:5px; }
+#grupo11 input { width:182px; height:22px; margin-bottom:5px; }
+#grupo12 input { width:300px; height:22px; margin-bottom:5px; }
+#grupo13 input { width:60px; height:22px; margin-bottom:5px; }
+#grupo14 input { width:126px; height:22px; margin-bottom:5px; }
+#grupo15 input { height:22px; margin-bottom:5px; }
+#grupo16 input { width:660px; height:22px; margin-bottom:5px; }
+#grupo19 input { width:215px; height:22px; margin-bottom:5px; }
+#grupo20 input { width:168px; height:22px; margin-bottom:5px; }
+#grupo21 input { height:22px; margin-bottom:5px; }
+#grupo22 input { height:22px; margin-bottom:5px; }
+#grupo23 input { width:265px; height:22px; margin-bottom:5px; }
+#grupo24 input { height:22px; margin-bottom:5px; }
+#grupo25 input { width:300px; height:22px; margin-bottom:5px; float:left; }
+#grupo25 legend { height:22px; margin-bottom:5px; float:left; padding-top:8px; margin-right:10px; margin-left:10px; }
+#grupo26 input { width:300px; height:22px; margin-bottom:5px; float:left; }
+#grupo26 legend { height:22px; margin-bottom:5px; float:left; padding-top:8px; margin-right:10px; margin-left:10px; }
+#grupo27 input { width:290px; height:22px; margin-bottom:5px; float:left; }
+#grupo27 legend { height:22px; margin-bottom:5px; float:left; padding-top:8px; margin-right:10px; margin-left:10px; }
+#grupo28 input { width:350px; height:22px; margin-bottom:5px; float:left; }
+#grupo28 legend { height:22px; margin-bottom:5px; float:left; padding-top:8px; margin-right:10px; margin-left:10px; }
+#grupo29 input { height:34px; margin-bottom:5px; border:none; }
+#grupo31 input { width:200px; height:22px; margin-bottom:5px; }
+#grupo32 input { height:22px; margin-bottom:5px; }
+#grupo33 input { height:22px; margin-bottom:5px; }
+#grupo34 input { height:22px; margin-bottom:5px; }
+#grupo35 input { height:22px; margin-bottom:5px; }
+#grupo36 input { width:400px; height:22px; margin-bottom:5px; }
+#grupo37 input { width:182px; height:22px; margin-bottom:5px; }
+#grupo38 input { width:240px; height:22px; margin-bottom:5px; }
+#grupo39 input { width:530px; height:22px; margin-bottom:5px; }
+#grupo40 input { width:117px; height:22px; margin-bottom:5px; }
+#grupo41 input { width:117px; height:22px; margin-bottom:5px; }
+#grupo42 input { width:505px; height:22px; margin-bottom:5px; }
+#grupo43 input { width:300px; height:22px; margin-bottom:5px; }
+#grupo43 select { width:250px; height:150px; margin-bottom:5px; padding:10px 5px; }
+#grupo45 input { width:92px; height:34px; }
+#grupo47 input { width:150px; height:22px; }
+#grupo49 textarea { width:610px; height:80px; }
+#grupo50 { padding-left:10px;  }
+#grupo50 table { padding:0px!important; margin:0px!important; margin-bottom:15px!important; }
+#grupo51 input { width:650px; height:22px; margin-left:10px; }
+#grupo51 legend { margin-left:10px; }
+#grupo52 input { width:201px; height:22px; }
+#grupo53 input { height:22px; }
+#grupo55 fieldset { padding:10px; margin-left:10px; margin-bottom:10px; width:625px!important; }
+#grupo56 select { width:630px; height:150px; margin-bottom:5px; padding:10px 5px; }
+#grupo57 input { width:650px; height:22px; margin-bottom:5px; }
+
+
+.selectheight01 select { height:30px; width:390px; }
+.selectheight02 select { height:30px; width:200px; }
+.selectheight03 select { height:30px; width:140px; }
+.selectheight04 select { height:30px; width:250px; }
+.selectheight05 select { height:30px; width:210px; }
+.selectheight06 select { height:30px; width:244px; }
+.selectheight07 select { height:30px; width:335px; }
+.selectheight08 select { height:30px; width:310px; }
+.selectheight09 select { height:30px; width:280px; }
+.selectheightnovo select { height:26px;  }
+.selectheightnovo2 select { height:27px;  }
+
+#centraliza-bloco { float:left; margin:0px 105px; display:inline; }
+#centraliza-bloco02 { width:640px; margin-left:10px; float:left; display:inline; }
+
+#centraliza-bloco02 input { float:left; margin-right:7px;  padding-top:3px; }
+.field-set2 legend { margin-bottom:10px; }

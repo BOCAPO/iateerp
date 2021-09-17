@@ -1,0 +1,447 @@
+.legendaFrame{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    font-weight:bold; 
+    color:#009; 
+}
+
+.larguraFrameTipoPessoa{
+    width:150px; 
+}
+
+.larguraComboEstadoCivil{
+    width:133px; 
+}
+
+.larguraFrameProponente{
+    width:512px; 
+}
+.larguraDataPermDependente{
+    width:170px; 
+}
+
+.larguraPaiMae{
+    width:248px; 
+}
+.larguraEmail{
+    width:160px; 
+}
+.larguraFrameTipoSexo{
+    width:90px; 
+}
+.legendaCodigo{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    font-weight:bold; 
+    color:#009; 
+    margin-left:15px;
+    padding-top: 15px;
+}
+.legendaCodigoSemMargem{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    font-weight:bold; 
+    color:#009; 
+    padding-top: 15px;
+}
+.legendaCodigoSemPadding{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    font-weight:bold; 
+    color:#009; 
+    margin-left:15px;
+}
+.legendaConfirmacao{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:14px;  
+    font-weight:bold; 
+    color:red; 
+    margin-left:15px;
+    padding-top: 15px;
+}
+.MargemSuperior0{ 
+    padding-top: 0px;
+}
+.MargemSuperior-10{ 
+    padding-top: -10px;
+}
+
+.MargemSuperiorPadrao{ 
+    padding-top: 15px;
+}
+
+.MargemSuperiorBotaoProcurar{ 
+    margin-top: 35px;
+}
+
+.legendaSemMargem{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    font-weight:bold; 
+    color:#009; 
+
+}
+
+.campoCodigo{ 
+    width:100px; 
+    height:22px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    border:1px solid #cccde3; 
+    margin-left:15px;
+}
+.campoDescricao{ 
+    width:328px; 
+    height:22px; 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    border:1px solid #cccde3; 
+    margin-left:15px;
+}
+
+.botaoatualizar {
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-atualizar.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoDevolver {
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-devolver.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaosair{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-sair.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoobservacoes{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-observacoes.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaofechar{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-fechar.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaocheques{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-cheques.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoEmprestimo{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-emprestimo.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoDevolucao{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-devolucao.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoHistorico{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-historico.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoGerarArquivo {
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-gerar-arquivo.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoImprimirEtiquetas {
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-imprimir-etiquetas.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaolimpar{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-limpar.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoimprimir {
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-imprimir.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoimprimirnovo {
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-imprimir.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoGerar{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-gerar.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoGerar2{
+    width:165px; 
+    height:32px; 
+    background:url("../imagens/btn-gerar2.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoGerar3{
+    width:120px; 
+    height:32px; 
+    background:url("../imagens/btn-gerar2.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoImprimirPequeno{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-imprimir.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoImprimirBemPequeno{
+    width:120px; 
+    height:32px; 
+    background:url("../imagens/btn-imprimir-pequeno.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoIncluir {
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-incluir.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+
+.botaoVoltar{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-voltar.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.botaoSupervisao{width:165px; height:34px; background:url("../imagens/btn-supervisao.png") no-repeat; margin-left:15px; cursor:pointer; border:none;} 
+.botaoSelecionar{
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-selecionar.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+.campoSemTamanho{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    border:1px solid #cccde3; 
+    margin-left:15px;
+}
+.campoSemTamanhoNegrito{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:14px;  
+    font-weight:bold; 
+    border:1px solid #cccde3; 
+    margin-left:15px;
+}
+.campoSemTamanhoSemMargem{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    border:1px solid #cccde3; 
+}
+.campoSemTamanhoSemMargemNegrito{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:14px;  
+    border:1px solid #cccde3; 
+    font-weight:bold; 
+}
+.campoSemTamanhoSemBorda{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    margin-left:15px;
+}
+.msgErro{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:16px;  
+    margin-left:15px;
+    color:red;
+}
+.campoSemTamanhoSemMargem{ 
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:11px;  
+    border:1px solid #cccde3; 
+}
+.alturaPadrao { 
+    height:22px; 
+}
+
+.larguraNumero{ 
+    width:60px; 
+}
+
+.larguraNumeroPequeno{ 
+    width:40px; 
+}
+
+.larguraHora{ 
+    width:20px; 
+}
+
+.larguraData{ 
+    width:100px; 
+}
+
+.tiraMargem{
+    margin:0px;
+    padding: 0px;
+}
+
+.recuoPadrao{ 
+    margin-left:15px;
+}
+.larguraComboCategoria{ 
+    width:300px; 
+}
+.larguraNomePessoa{ 
+    width:377px; 
+}
+
+.larguraNomeProponente{ 
+    width:360px; 
+}
+
+.larguraFrameCorrespondencia{ 
+    width:230px; 
+}
+.larguraFrameCarne{ 
+    width:180px; 
+}
+.alturaPadraoFrame{ 
+    height:45px; 
+}
+
+.larguraTelefone{ 
+    width:70px; 
+}
+
+.larguraBairro{ 
+    width:138px; 
+}
+
+.larguraUF{ 
+    width:50px; 
+}
+
+.larguraCidade{ 
+    width:215px; 
+}
+
+.larguraTitular{ 
+    width:230px; 
+}
+
+.larguraCargoCarteira{ 
+    width:122px; 
+}
+
+.botaoEscolherArquivo {
+    margin-left:15px; 
+}
+
+.larguraComboSituacaoEspecial {
+    width:75px; ; 
+}
+
+.botaoEmitir {
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-emitir.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+
+.botaoEmitir {
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-emitir.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+}
+
+.botaoExcluirFoto {
+    width:165px; 
+    height:34px; 
+    margin-left:15px; 
+    margin-top:5px; 
+}
+
+.botaoAtualizarFoto {
+    width:165px; 
+    height:34px; 
+    background:url("../imagens/btn-atualizar-foto.png") no-repeat; 
+    margin-left:15px; 
+    cursor:pointer; 
+    border:none;
+    margin-top:5px; 
+}
+
+
+.larguraEmailDependente{
+    width:200px; 
+}
+
+.larguraNomeDependente{
+    width:240px;  
+}
+
+.larguraNomeTitDep{
+    width:300px;  
+}

@@ -1,0 +1,306 @@
+.addons {
+	VISIBILITY: visible; POSITION: relative
+}
+BODY.boleto {
+	FONT: 10px Arial
+}
+.TituloBoleto {
+	FONT: 9px Arial Narrow; COLOR: navy
+}
+.CampoBoleto {
+	FONT: 10px Arial; COLOR: black
+}
+P.letreiro {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; FONT-FAMILY: Trebuchet MS
+}
+A {
+	FONT-WEIGHT: bold; COLOR: navy; TEXT-DECORATION: none
+}
+A.letreiro {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000099; FONT-FAMILY: Trebuchet MS; TEXT-DECORATION: none
+}
+A.letreiro:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #000099; FONT-FAMILY: Trebuchet MS; TEXT-DECORATION: none
+}
+A.letreiro:active {
+	TEXT-DECORATION: none
+}
+A.letreiro:hover {
+	COLOR: #468ff0; TEXT-DECORATION: none
+}
+A.barra {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.barra:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.barra:active {
+	TEXT-DECORATION: none
+}
+A.barra:hover {
+	COLOR: #468ff0; TEXT-DECORATION: none
+}
+A.barrac {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #828282; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.barrac:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #828282; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.barrac:active {
+	TEXT-DECORATION: none
+}
+A.barrac:hover {
+	COLOR: #468ff0; TEXT-DECORATION: none
+}
+FONT.barra {
+	FONT: 11px Arial Bold; COLOR: #828282; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0033ff; TEXT-DECORATION: none
+}
+A.link {
+	TEXT-DECORATION: none
+}
+A.menu {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menu:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menu:active {
+	TEXT-DECORATION: none
+}
+A.menu:hover {
+	COLOR: #468ff0; TEXT-DECORATION: none
+}
+A.menu1 {
+	FONT: bold 12px Trebuchet MS
+}
+A.menu1:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menu1:active {
+	TEXT-DECORATION: none
+}
+A.menu1:hover {
+	COLOR: #0033ff; TEXT-DECORATION: none
+}
+A.menu2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #ffcc33; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menu2:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #828282; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menu2:active {
+	TEXT-DECORATION: none
+}
+A.menu2:hover {
+	COLOR: #0033ff; TEXT-DECORATION: none
+}
+A.mn {
+	FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.mn:visited {
+	FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: "Trebuchet MS", Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.mn:active {
+	TEXT-DECORATION: none
+}
+A.mn:hover {
+	COLOR: #ffcc33; TEXT-DECORATION: none
+}
+A.item {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.item:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: white; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.item:active {
+	TEXT-DECORATION: none
+}
+A.item:hover {
+	COLOR: #ffcc33; TEXT-DECORATION: none
+}
+A.menuid {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menuid:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menuid:active {
+	TEXT-DECORATION: none
+}
+A.menuid:hover {
+	COLOR: #ffcc33; TEXT-DECORATION: none
+}
+A.menu2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menu2:visited {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.menu2:active {
+	TEXT-DECORATION: none
+}
+A.menu2:hover {
+	COLOR: #ffcc33; TEXT-DECORATION: none
+}
+A.menu3 {
+	FONT: bold 12px Trebuchet MS, Arial, Helvetica, sans-serif; COLOR: navy; TEXT-DECORATION: none
+}
+A.menu3:hover {
+	COLOR: #468ff0; TEXT-DECORATION: none
+}
+.tit {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: navy; TEXT-DECORATION: none
+}
+INPUT.valor {
+	FONT-SIZE: 15px; FONT-FAMILY: monospace; TEXT-ALIGN: right
+}
+INPUT.valor2 {
+	FONT-SIZE: 11px; FONT-FAMILY: monospace; TEXT-ALIGN: right
+}
+INPUT.str {
+	FONT-SIZE: 15px; FONT-FAMILY: monospace
+}
+TD {
+	FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: Arial
+}
+.Titulo {
+	FONT-WEIGHT: bold; FONT-SIZE: 13px; COLOR: black; FONT-FAMILY: Arial
+}
+.Titulo1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: Arial
+}
+.Titulo2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: navy; FONT-FAMILY: Arial
+}
+.Titulo3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffcc33; FONT-FAMILY: Arial
+}
+.Titulo4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Courier New
+}
+.Titulo5 {
+	FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Arial
+}
+.Titulo6 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: black; FONT-FAMILY: Arial
+}
+.Titulo7 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: navy; FONT-FAMILY: Arial Narrow
+}
+.Titulo8 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: Arial
+}
+.Titulo9 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: black; FONT-FAMILY: Trebuchet Ms, Arial
+}
+.Titulo10 {
+	COLOR: navy
+}
+.Titulo11 {
+	FONT: 9px Arial Narrow; COLOR: navy
+}
+.Titulo12 {
+	FONT: 8px Arial Narrow; COLOR: navy
+}
+.Titulo13 {
+	FONT-SIZE: 13px; COLOR: navy
+}
+.Titulo14 {
+	FONT-SIZE: 13px; COLOR: red; FONT-FAMILY: Arial
+}
+.Titulo15 {
+	FONT: 9px Trebuchet Ms; COLOR: black
+}
+.Titulo16 {
+	FONT: 8px Trebuchet Ms; COLOR: black
+}
+.Titulo17 {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: black; FONT-FAMILY: "Trebuchet MS", "Arial", "Helvetica"
+}
+.Campo {
+	FONT: bold 10px Arial; COLOR: black
+}
+.DetParcela {
+	FONT: bold 8px Courier New; COLOR: black
+}
+.CampoTitulo {
+	FONT: bold 15px Arial; COLOR: navy
+}
+.Normal {
+	FONT: 12px Arial; COLOR: black
+}
+.quebra {
+	PAGE-BREAK-BEFORE: always
+}
+.deb {
+	COLOR: red; TEXT-ALIGN: right
+}
+.cred {
+	COLOR: navy; TEXT-ALIGN: right
+}
+.neutro {
+	COLOR: black; TEXT-ALIGN: right
+}
+.center {
+	TEXT-ALIGN: center
+}
+.right {
+	TEXT-ALIGN: right
+}
+.href {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.v1 {
+	VERTICAL-ALIGN: text-bottom; LINE-HEIGHT: 100%
+}
+.v1m {
+	FONT-SIZE: 10pt; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.v2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; BACKGROUND: #f4da00; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.v3 {
+	FONT-WEIGHT: normal; FONT-SIZE: 8pt; BACKGROUND: #000099; COLOR: #f4da00; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.dl2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.dl3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+PRE {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: navy; FONT-STYLE: normal; FONT-FAMILY: monospace; POSITION: relative
+}
+.v1 {
+	DISPLAY: inline; FONT-SIZE: 10pt; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.v2 {
+	DISPLAY: inline; FONT-WEIGHT: bolder; FONT-SIZE: 10pt; FONT-FAMILY: "Courier New", Courier, monospace; BACKGROUND-COLOR: #f4da00
+}
+.v3 {
+	DISPLAY: inline; FONT-WEIGHT: bolder; FONT-SIZE: 10pt; COLOR: #f4da00; FONT-FAMILY: "Courier New", Courier, monospace; BACKGROUND-COLOR: #000099
+}
+.v011 {
+	DISPLAY: inline; FONT-SIZE: 9pt; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.v011p {
+	DISPLAY: inline; FONT-SIZE: 9pt; FONT-FAMILY: "Times New Roman", Times, serif
+}
+.v011D {
+	DISPLAY: inline; FONT-SIZE: 9pt; COLOR: red; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.v011N {
+	DISPLAY: inline; FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.titnavy {
+	DISPLAY: inline; FONT-WEIGHT: 700; FONT-SIZE: 9pt; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.titwhite {
+	DISPLAY: inline; FONT-WEIGHT: 700; FONT-SIZE: 9pt; COLOR: white; FONT-FAMILY: "Courier New", Courier, monospace
+}
+.desc {
+	VISIBILITY: hidden
+}

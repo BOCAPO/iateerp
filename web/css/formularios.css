@@ -1,0 +1,195 @@
+/********************************************************************
+######################         	RESETS         ######################
+*********************************************************************/
+.clear { clear:both; }
+
+/********************************************************************
+################         formulario - logar       ###################
+*********************************************************************/
+
+#blocoform { padding-top:70px; }
+.login { float:left; width:80px; margin-bottom:15px; padding-top:2px; font-family:Arial, Helvetica, sans-serif; font-size:14px;  font-weight:bold; color:#009; margin-left:30px; display:inline; }
+.formlogin { float:left; width:200px; height:20px; font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; padding-left:5px; border:1px solid #cccde3; }
+.botaologin01 { float:left; width:160px; height:34px; padding:0px; background:url("../imagens/img-botao-conectarr-login.png") no-repeat; margin-top:27px; margin-left: -12px;display:inline; border:none; }
+.botaologin02 { float:left; width:160px; height:34px; padding:0px; background:url("../imagens/img-botao-cancelar-login.png") no-repeat; margin-top:10px; display:inline; border:none; }
+.botaovoltarerrologin { float:left; width:160px; height:34px; padding:0px; background:url("../imagens/btn-voltar.png") no-repeat; margin-top:123px; margin-left: 105px;display:inline; border:none; }
+
+/********************************************************************
+#######         formulario - barra inclusão de titular      #########
+*********************************************************************/
+
+.barrainclusaotext { float:left; font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; display:inline; padding-top:10px; margin:0px 7px; display:inline; }
+.barrainclusaocheck { float:left; font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; display:inline; padding-top:7px; margin:0px 7px; display:inline; }
+.formbarrainclusao1 { float:left; width:100px; height:20px; font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; margin-top:6px; display:inline; }
+.formbarrainclusao2 { float:left; width:60px; height:20px; font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; margin-top:6px; display:inline; }
+.formbarrainclusao3 { float:left; width:60px; height:20px; font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; margin-top:6px; display:inline; }
+.formbarrainclusao4 { float:left; width:300px; height:20px; font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; margin-top:6px; display:inline; }
+.formbarrainclusaoSEMTAMANHO { float:left; height:20px; font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; margin-top:6px; display:inline; }
+.botaobuscainclusao { float:left; width:25px; height:21px; background:url("../imagens/btn-busca.png") no-repeat; border:none; margin-top:7px; margin-left:7px; }
+.botaobuscainclusaomaior { float:left; width:50px; height:42px; background:url("../imagens/btn-busca.png") no-repeat; border:none; margin-top:7px; margin-left:7px; }
+.botaoSalva { float:left; width:25px; height:21px; background:url("../imagens/icones/ico-salva.ico") no-repeat; border:none; margin-top:7px; margin-left:7px; }
+.botaoSalvar { width:21px; height:20px; background:url("../imagens/icones/inclusao-titular-17.png") 0px 7px no-repeat;}
+.botaoMarcaDesmarca { width:20px; height:20px; background:url("../imagens/icones/inclusao-titular-17.png") no-repeat; border:none; margin-top:0px; margin-left:5px;  }
+.botaoNovoItem { float:left; width:25px; height:21px; background:url("../imagens/icones/inclusao-titular-16.png") no-repeat; border:none; margin-top:7px; margin-left:7px; cursor:pointer; }
+.botaoExclui { float:left; width:25px; height:21px; background:url("../imagens/icones/inclusao-titular-05.png") no-repeat; border:none; margin-top:7px; margin-left:7px; }
+.botaoNovaPessoa { float:left; width:25px; height:21px; background:url("../imagens/icones/inclusao-titular-02.png") no-repeat; border:none; margin-top:7px; margin-left:7px; }
+.botaoAdiciona { float:left; width:25px; height:21px; background:url("../imagens/btn-adiciona.png") no-repeat; border:none; margin-top:7px; margin-left:7px; }
+.botaoExclui { float:left; width:25px; height:21px; background:url("../imagens/icones/inclusao-titular-05.png") no-repeat; border:none; margin-top:7px; margin-left:7px; }
+.botaoImprime { float:left; width:25px; height:21px; background:url("../imagens/icones/inclusao-titular-13.png") no-repeat; border:none; margin-top:7px; margin-left:7px; }
+
+/********************************************************************
+############         formulario - GRUPOS Filhos      ################
+*********************************************************************/
+
+#grupo01 legend, #grupo01 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo01 .especial01 { width:540px; }
+#grupo01 input, #grupo01 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+#grupo09 input, #grupo09 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+#grupo09 input { border:none; }
+
+#grupo02  legend, #grupo02 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo02  input, #grupo02 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo03  legend, #grupo03 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo03  input, #grupo03 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo04 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+
+#grupo05  legend, #grupo05 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo05  input, #grupo05 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+#grupo05  input { width:90px; }
+
+#grupo06  legend, #grupo06 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo06  input, #grupo06 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo07  legend, #grupo07 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo07  input, #grupo07 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo08  legend, #grupo08 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo08  input, #grupo08 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo09  legend, #grupo09 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; margin-left:10px; }
+
+#grupo10 legend, #grupo10 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo10 input, #grupo10 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo11 legend, #grupo11 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo11 input, #grupo11 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo12 legend, #grupo12 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo12 input, #grupo12 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo13 legend, #grupo13 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo13 input, #grupo13 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo14 legend, #grupo14 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo14 input, #grupo14 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo15  legend, #grupo15 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo15  input, #grupo15 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+#grupo15  input { width:20px; }
+
+#grupo16  legend, #grupo16 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo16  input, #grupo16 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo18  legend, #grupo18 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo18  input, #grupo18 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo19  legend, #grupo19 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo19  input, #grupo19 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo20 legend, #grupo20 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo20  input, #grupo20 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo21 legend, #grupo21 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo21  input, #grupo21 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo22 legend, #grupo22 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo22  input, #grupo22 select { float:left; font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px;  margin-right:5px; }
+.span { float:left;  font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; padding-top:3px; } 
+
+#grupo23 legend, #grupo23 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo23  input, #grupo23 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo24 legend, #grupo24 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo24  input, #grupo24 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo25 legend, #grupo25 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo25  input, #grupo25 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo26 legend, #grupo26 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo26  input, #grupo26 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo27 legend, #grupo27 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo27  input, #grupo27 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo28 legend, #grupo28 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo28  input, #grupo28 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo30 legend, #grupo30 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo30  input, #grupo30 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo31 legend, #grupo31 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo31  input, #grupo31 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo32 legend, #grupo32 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo32  input, #grupo32 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo33 legend, #grupo33 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo33  input, #grupo33 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo34 legend, #grupo34 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo34  input, #grupo34 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo39 legend, #grupo39 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo39  input, #grupo39 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo40 legend, #grupo40 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo40  input, #grupo40 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo41 legend, #grupo41 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo41  input, #grupo41 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo42 legend, #grupo42 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo42  input, #grupo42 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo43 legend, #grupo43 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo43  input, #grupo43 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo46 legend, #grupo46 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo46  input, #grupo46 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo50 caption {  font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; padding:0px!important; margin:0px!important; margin-bottom:5px!important; }
+
+#grupo51 legend, #grupo51 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo51  input, #grupo51 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+#grupo55 legend, #grupo55 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo55  input, #grupo55 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+#grupo55 ul li a { font-family:Arial, Helvetica, sans-serif; font-size:13px;  font-weight:bold; color:#009; }
+#grupo55 ul li a:hover { color:#666; }
+#grupo55 ul li a:visited { color:#039; }
+
+#grupo57 legend, #grupo57 span { font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; }
+#grupo57  input, #grupo57 select { font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; padding:3px; }
+
+.botaoimprimir { float:left; width:165px; height:34px; padding:0px; background:url("../imagens/btn-imprimir.png") no-repeat; display:inline; border:none!important; margin-right:10px; margin-top:5px; cursor:pointer;}
+.botaocancelar { float:left; width:165px; height:34px; padding:0px; background:url("../imagens/img-botao-cancelar-login.png") no-repeat; display:inline; border:none!important;  margin-top:5px; cursor:pointer;}
+
+.botaoincluir { width:92px; height:34px; padding:0px; background:url("../imagens/btn-incluir-um.png") no-repeat; border:none!important; }
+.botaoincluir1 { width:92px; height:34px; padding:0px; background:url("../imagens/btn-incluir-multiplos.png") no-repeat; border:none!important; }
+.botaoexcluir { width:92px; height:34px; padding:0px; background:url("../imagens/btn-excluir-um.png") no-repeat; border:none!important; }
+.botaoexcluir1 { width:92px; height:34px; padding:0px; background:url("../imagens/btn-excluir-multiplos.png") no-repeat; border:none!important; }
+.botaoincluirgeral {position:absolute; left:2.5%;}
+.botaoincluirmargem0 {position:absolute;}
+
+.btn01-sair { float:left; width:165px; height:34px; padding:0px; background:url("../imagens/btn-sair.png") no-repeat; border:none!important; margin:0px 2px; display:inline; cursor:pointer;}
+.btn02-cancelar { float:left; width:165px; height:34px; padding:0px; background:url("../imagens/btn-cancelar.png") no-repeat; border:none!important; margin:0px 2px; display:inline; cursor:pointer;}
+.btn03-atualizar { float:left; width:165px; height:34px; padding:0px; background:url("../imagens/btn-atualizar.png") no-repeat; border:none!important; margin:0px 2px; display:inline; cursor:pointer;}
+.btn04-ajuda { float:left; width:165px; height:34px; padding:0px; background:url("../imagens/btn-ajuda.png") no-repeat; border:none!important; margin:0px 2px; display:inline; cursor:pointer;}
+
+.btn01-incluir { float:left; width:50%; height:50%; padding:0px; background:url("../imagens/btn-ajuda.png") no-repeat; border:none!important; margin:0px 2px; display:inline; cursor:pointer;}
+
+
+.campoDataCP { float:left; width:50px; height:20px; font-family: Arial, Helvetica, sans-serif; font-size:11px; color:#666; border:1px solid #cccde3; display:inline; }
+.labelDataCP { float:left; font-family:Arial, Helvetica, sans-serif; font-size:11px;  font-weight:bold; color:#009; display:inline; display:inline; }

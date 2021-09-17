@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context antiJARLocking="true" path="/iate">
+
+	<Resource name="jdbc/iate" auth="Container" type="javax.sql.DataSource"
+			maxActive="500" maxIdle="500" maxWait="6000"
+                        removeAbandoned="true" removeAbandonedTimeout="60" logAbandoned="true"
+                            username="tecsoft" password="fnlp02@"
+            driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+			url="jdbc:sqlserver://iatebsb-sql:1433;databaseName=iate;"/>
+
+	<Realm className="org.apache.catalina.realm.DataSourceRealm"
+			dataSourceName="jdbc/iate" localDataSource="true" 
+            userTable="vw_usuario_sistema" 
+            userNameCol="user_acesso_sistema"
+            userCredCol="senha_usuario_sistema"
+            userRoleTable="vw_user_roles"
+            roleNameCol="cd_aplicacao"/>
+
+	<Resource name="jdbc/foto" auth="Container" type="javax.sql.DataSource"
+			maxActive="500" maxIdle="500" maxWait="6000"
+                        removeAbandoned="true" removeAbandonedTimeout="60" logAbandoned="true"
+			username="tecsoft" password="fnlp02@"
+            driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+			url="jdbc:sqlserver://iatebsb-sql:1433;databaseName=iate_foto;"/>
+        
+</Context>

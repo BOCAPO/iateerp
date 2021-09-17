@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Autenticação - Iate Clube de Brasília</title>
+        <link rel="icon" href="imagens/icones/favicon.ico" type="image/x-icon"/>
+        <link rel="shortcut icon" href="imagens/icones/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" href="css/main.css" type="text/css"/>
+        <link rel="stylesheet" href="css/formularios.css" type="text/css"/>
+    </head>
+
+
+    <body class="logar" onload="document.login_form.j_username.focus();">
+        <script type="text/javascript" language="JavaScript">
+
+            function validarForm(){
+
+                document.forms[0].j_password.value = document.forms[0].j_password.value.toUpperCase();
+                
+                document.forms[0].submit();
+            }
+
+        </script>
+
+        <div id="logointro"><img src="imagens/logo-intro.png" /></div>
+        <div id="caixalogin">
+            <div id="blocoform">
+                <form method="post" name="login_form" action="j_security_check" onsubmit="return validaForm()">
+                    <div class="clear">
+                        <label for="username" class="login">
+                            Usuário:
+                        </label>
+                        <input id="username" class="formlogin" type="text" name="j_username" size="50" onfocus="this.select()" onMouseUp="return false"/>
+                    </div>
+                    <div class="clear">
+                        <label for="password" class="login">
+                            Senha:
+                        </label>
+                        <input id="password" class="formlogin" maxlength="6" type="password" name="j_password" size="15" onfocus="this.select()" onMouseUp="return false"/>
+                    </div>
+                    <input class="botaologin01" type="submit" onclick="return validarForm()" value=""/>
+                </form>
+            </div>
+            
+        </div>
+        
+    </body>
+</html>

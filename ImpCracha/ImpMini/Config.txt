@@ -1,0 +1,7 @@
+SQL_IATE_3
+localhost
+IATE
+sa
+h^@zNFrk
+IATE_FOTO
+PDFCreator

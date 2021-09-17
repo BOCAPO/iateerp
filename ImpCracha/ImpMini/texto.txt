@@ -1,0 +1,28 @@
+*************************************
+FECHAMENTO DE CAIXA
+-------------------------------------
+FLAVIO PAULINO DA SILVA
+-------------------------------------
+Inicio Movimento:
+25/08/2013 10:56:49 Domingo
+-------------------------------------
+
+RECEBIMENTOS
+  Dinheiro : 0,00
+  Cheque : 0,00
+  Estorno : 0,00
+  Sub Total: 0,00 =
+
+PAGAMENTOS
+  Dinheiro : 0,00
+  Cheque : 0,00
+  Estorno : 0,00
+  Sub Total: 0,00 =
+_______________________
+
+TOTAL 0,00 =
+
+-------------------------------------
+Fechamento ocorrido em
+27/08/2013 09:05:07
+*************************************
